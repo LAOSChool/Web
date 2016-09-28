@@ -1,0 +1,188 @@
+<?php
+
+//General
+
+$lang_home = "​ໜ້າຫຼັກ";
+$lang_pagenotfound = "Page not Found";
+$lang_uploadok = "ອັບ​ໂຫຼດສຳ​ເລັດ";
+$lang_error = "Error";
+$lang_uploading = "Uploading...";
+$lang_sltparameters = "ເລືອກ";
+$lang_detail = "Detail content";
+$lang_close = "ປິດ";
+$lang_search = "ຄົ້ນ​ຫາ";
+$lang_from = "ຈາກ";
+$lang_to = "ເຖິງ";
+$lang_pleasefill = "Please fill/choose";
+$lang_recordperpage = "ເລັກ​ຂອດຕໍ່​ນຶ່ງ​ໜ້າ";
+$lang_total = "ລວມ​ເລັກ​ຂອດ​ໃນ";
+$lang_recordin = "ໜ້າ,";
+$lang_page = "page";
+$lang_pages = "pages";
+$lang_youarein = "ທ່ານ​ຢູ່​ໜ້າ";
+$lang_read = "Read";
+$lang_edit = "ແກ້​ໄຂ";
+$lang_add = "ເພີ່ມ";
+$lang_update = "ອັບ​ເດດ";
+$lang_select = "Select";
+
+//Login
+
+$lang_pleasewait = "ກະ​ລ​ຸ​ນາ​ລໍ​ຖ້າ";
+$lang_wrongpass = "The username or password you entered is incorrect.";
+$lang_login = "Login";
+$lang_username = "Username";
+$lang_password = "ລະ​ຫັດ​ຜ່ານ";
+$lang_connecterror = "Connection Error";
+
+//School manager
+
+$lang_sclmanager = "ຂໍ້​ຄວາມ​ຈາກ​ທາງ​ໂຮງ​ຮຽນ";
+$lang_title = "ຊື່​ໂຮງ​ຮຽນ";
+$lang_degreenfounddate = "ລະດັບ ແລະ ວັນ​ສ້າງ​ຕັ້ງ";
+$lang_degree = "ລະດັບ";
+$lang_founddate = "ວັນ​ສ້າງ​ຕັ້ງ";
+$lang_addr = "ທີ່​ຢູ່";
+$lang_addr1 = "ທີ່​ຢູ່ 1";
+$lang_addr2 = "ທີ່​ຢູ່ 1";
+$lang_prnvncity = "ແຂວງ/ນະ​ຄອນຫຼວງ";
+$lang_website = "Website";
+$lang_phonenfax = "Phone & Fax";
+$lang_phone = "Phone";
+$lang_fax = "Fax";
+$lang_ext = "Ext";
+$lang_principal = "ອຳ​ນວຍ​ການ";
+$lang_photo = "ຮູບ";
+$lang_selectfile = "Select file";
+$lang_viewphoto = "ເບິ່ງ​ຮູບ";
+$lang_status = "ສະ​ຖາ​ນະ";
+$lang_active = "Active";
+$lang_deactive = "DeActive";
+$lang_updated = "Updated";
+
+//Message manager
+
+$lang_msgmanager = 'ການ​ຄ​ຸ້ມ​ຄອງ​ຂໍ້​ຄວາມ';
+$lang_sendmsg = 'ສົ່ງ​ຂໍ້​ຄວາມ';
+$lang_senddate = 'ວັນ​ທີ​ສົ່ງ';
+$lang_sendtype = 'ແບບ​ສົ່ງ';
+$lang_send2allscl = 'ສົ່ົ່ງ​ໃຫ້​ທົ່ວໂຮງ​ຮຽນ';
+$lang_send2class = 'ສົ່ງ​ໃຫ້​ຫ້ອງ';
+$lang_send2std = 'Send to students';
+$lang_classes = 'ຫ້ອງຮ​ຽນ';
+$lang_students = 'ນັກ​ຮຽນ​';
+$lang_rcvtype = 'ແບບຜູ້​ຮັບ';
+$lang_msgcontent = 'ເນື້ອ​ໃນຂໍ້​ຄວາມ';
+$lang_selectstd = 'Select Students';
+$lang_selectcls = 'ເລືອກ​ຫ້ອງ​ຮຽນ';
+$lang_msgsent = 'ຂໍ້​ຄວາມ​ສົ່ງ​ໄປແລ້ວ!';
+$lang_sender = 'ຜູ້​ສົ່ງ';
+$lang_ricever = 'ຜູ້ຮັບ';
+$lang_sentdate = 'ວັນ​ທີ​ສົ່ງ';
+$lang_content = 'ເນື້ອ​ໃນ';
+
+//Notification manager
+
+$lang_ntfmanager = "ການ​ຄຸ້ມ​ຄອງ​ການ​ແຈ້ງ​ເຕືອນ";
+$lang_sendntf = "ແຈ້ງ​ເຕືອນການ​ສົ່ງ";
+$lang_ntfsent = "Notification Sent!";
+
+//Example Result
+
+$lang_exresult = "ຕົວ​ຢ່າງ​ຜົນ​ກາ​ນ​ສົ່ງ";
+$lang_classnsubject = "ຫ້ອງ​ຮຽນ ແລະ ຫົວ​ຂໍ້";
+$lang_sltclass = "ຫ້ອງ​ຮຽນ";
+$lang_sltsubject = "ຫົວ​ຂໍ້";
+$lang_sltteacher = "Select Teacher";
+$lang_subject = "ຫົວ​ຂໍ້";
+$lang_pointerr = "Result must is number and <10";
+$lang_student = 'ນັກ​ຮຽນ​';
+
+//Attendance
+
+$lang_atdmanager = 'ການ​ຄ​ຸ້ມຄ​ອງ​ໝາຍ​ຂາດ';
+$lang_attendance = 'ເຊັກ​ລາຍ​ຊື່​ນັກ​ນ​ຮຽນ​ຂາດ';
+$lang_reason = 'Reason';
+$lang_sentatd = 'Send Attendance';
+$lang_sendsms = 'Send SMS';
+$lang_send = 'Send';
+$lang_attendant = 'Send attendant notification';
+$lang_id = 'ID';
+$lang_phone = 'Phone';
+$lang_id = 'ID';
+$lang_class = 'ຫ້ອງຮ​ຽນ';
+$lang_sltdate = 'ເລືອກວັນ​ທີ';
+
+//Class Manager
+
+$lang_clsmanager = "ການ​ຄຸ້ມ​ຄອງ​ຫ້ອງ​ຮຽນ";
+$lang_addclass = "ເພີ່ມ​ຫ້ອງ​ຮຽນ";
+$lang_classname = "ຊື່​ຫ້ອງ​ຮຽນ";
+$lang_view = "ເບິ່ງ";
+$lang_titlenlocation = "ຊື່​ຫ້ອງ​ຮຽນ ແລະ ຈຸດ​ທີ່​ຕັ້ງ";
+$lang_classtitle = "ຊື່​ຫ້ອງ​ຮຽນ title";
+$lang_classlocation = "ຈຸດ​ທີ່​ຕັ້ງ";
+$lang_levelnyear = "ຊັ້​ນ​ຮຽນ & ປີ​ຮຽນ​";
+$lang_level = "ຊັ້​ນ​ຮຽນ";
+$lang_year = "ປີ​ຮຽນ​";
+$lang_startdate = "ວັນ​ທີ​ເລີ່​ມ";
+$lang_teacher = "ອາ​ຈານ";
+$lang_classadded = "Class Added";
+$lang_classedited = "Class Edited";
+$lang_ssoid = "SSO ID";
+$lang_fullnbame = "ຊື່​ແທ້";
+$lang_nickname = "ຊື່ື່ຫຼິ້​ນ";
+$lang_assign2classs = "ເອົາ​ຊື່​ເຂົ້າ​ຫ້ອງ";
+$lang_assigned = "User(s) had Assigned.";
+$lang_notassigned = "ບໍ່​ເອົາ​ຊື່​ເຂົ້າ";
+$lang_role = "ບົດ​ບາດ";
+$lang_all = "All";
+
+//User manager
+
+$lang_usrmanager = 'User Manager';
+$lang_addusr = 'ເພີ່ມ​ຜູ້ໃ​ຊ້​ງານ';
+$lang_fullname = 'ຊື່​ແທ້';
+$lang_name = 'ຊື່';
+$lang_avatar = 'ຮູບພໍ​ຟາຍ';
+$lang_contactinf = 'ຂໍ້​ມູນ​ຕິດ​ຕໍ່';
+$lang_email = 'Email';
+$lang_gender = 'ເພດ';
+$lang_birthday = 'ວັນ​ເກີດ';
+$lang_male = 'Male';
+$lang_female = 'feMale';
+$lang_stdname = 'Student name';
+$lang_stdprname = 'ຊື່​ຜູ້​ປົກ​ຄອງ';
+$lang_editusr = 'Edit User';
+$lang_confirmrspass = 'Confirm reset password';
+$lang_rspass = 'Reset password';
+$lang_usredited = 'User Edited';
+$lang_usreadded = 'User Added';
+
+//Master Table
+
+$lang_session = "ວິ​ຊາ​ຮຽນ​";
+$lang_subject = "ຊົ່ວ​ໂມງ​ຮຽນ"; 
+$lang_viewfrom = "View from";
+$lang_addto = "ເພີ່ີ່ມ​ເຂົ້າ";
+$lang_order = "ລຳ​ດັບ";
+$lang_notice = "ໝາຍ​ເຫດ";
+$lang_added = "Added";
+$lang_edited = "Edited";
+$lang_yearmanager = "ປີ​ຮຽນ";
+$lang_year = "ປີ​ຮຽນ​";
+$lang_term = "ພາກ​ຮຽນ";
+$lang_duration = "ຈຳ​ນວນ​ເດືອນ​ໃນ​ພາກ​ຮຽ​ນ";
+$lang_sclexam = "School Exam";
+$lang_examname = "Exam Name";
+$lang_min = "ຕ່ຳ​ສຸດ";
+$lang_max = "ສູງ​ສຸດ";
+$lang_month = "ເດືອນ";
+$lang_key = "ລະ​ຫັດ​ຄະ​ແນນ";
+
+//Timetable manager
+
+$lang_ttbmanager = "ການ​ຄຸ້ມ​ຄອງ​ຕາ​ຕະ​ລາງຮຽນ";
+$lang_remove = "Remove";
+$lang_plsselectclass = "Please select class";
+?>
