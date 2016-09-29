@@ -1,11 +1,14 @@
 <?php
 $rnk_tabs = array(
-	array('manager','Class manager'),
+	array('manager','Generate Rank'),
+	array('view','Rank view')
 );
 $rnk_tabs_en = array(
-	array('manager','Class manager'),
+	array('manager','Generate Rank'),
+	array('view','Rank view')
 );
 $rnk_tabs_la = array(
-	array('manager','Class manager'),
+	array('manager','Generate Rank'),
+	array('view','Rank view')
 );
 ?>
