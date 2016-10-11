@@ -93,6 +93,7 @@ echo "</tr>
 			if($lists->actived==0) $actived_text = $lang_inactive;
 			if($lists->actived==1) $actived_text = $lang_active;
 			if($lists->actived==2) $actived_text = $lang_pending;
+			
 			echo "<tr id='row$row[id]'>
 				<td>$year</td>
 				<td>$lists->term_val</td>

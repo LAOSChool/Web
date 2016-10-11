@@ -40,6 +40,6 @@ $tabs_la = array(
 	array('usr','ການ​ຄ​ຸ້ມ​ຄອງຊື່ຜູ​້​ນຳ​ໃຊ້','1','icon-list'),
 	array('mtb','ຕາ​ຕະ​ລ​າງ​ສັງ​ລວມ','1','icon-list'),
 	array('ttb','ການ​ຄຸ້ມ​ຄອງ​ຕາ​ຕະ​ລາງຮຽນ','1','icon-list'),
-	array('rnk','Ranking','1','icon-list-ol'),
+	array('rnk','​ຈັດ​ອັນ​ດັບ','1','icon-list-ol'),
 	array('acc','Profile','0','icon-list'),
 );

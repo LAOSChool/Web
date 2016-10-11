@@ -9,7 +9,7 @@ $cls_tabs_en = array(
 );
 
 $cls_tabs_la = array(
-	array('manager','Class manager'),
-	array('setclass','Assign to Class')
+	array('manager','ການ​ຄຸ້ມ​ຄອງ​ຫ້ອງ​ຮຽນ'),
+	array('setclass','ເອົາ​ຊື່​ເຂົ້າ​ຫ້ອງ')
 );
 ?>

@@ -75,7 +75,7 @@
 		<div class="control-group teacherform">
 			<label class="control-label"><?php lang('ssoid') ?></label>
 			<div class="controls">
-				<input type=text name="sso_id" class="input-large">
+				<input type=text name="sso_id" class="input-large" maxlength="20">
 			</div>
 		</div>	
 		
@@ -235,7 +235,7 @@
 			<div class="controls">
 				<input type="hidden" name="id" value="<?php echo $usrdata->id ?>">
 				<input type="hidden" name="roles" value="<?php echo $usrdata->roles ?>">
-				<input type=text name="sso_id" class="input-large" value="<?php echo $usrdata->sso_id ?>">
+				<input type=text name="sso_id" class="input-large" value="<?php echo $usrdata->sso_id ?>"  maxlength="20">
 			</div>
 		</div>		
 		

@@ -210,5 +210,9 @@ $lang_selectexam = "Select Exam";
 $lang_genrank = "Generate";
 $lang_genedrank = "Rank Generated";
 $lang_all = "All";
+$lang_rnkview = "View Ranking";
+$lang_averagegrade = "Grade";
+$lang_rank = "Rank";
+$lang_avgresult = "Average";
 
 ?>
