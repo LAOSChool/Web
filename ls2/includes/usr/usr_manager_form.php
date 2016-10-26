@@ -14,6 +14,7 @@
 				<ul class="nav">
 					<li <?php echo ($type=='search' || $type == '')?"class='active'":"" ?>><a href="javascript:;" class='formchange' form="search"><i class="icon-search"></i> <?php lang('search') ?></a></li>
 					<li <?php echo ($type=='add')?"class='active'":"" ?>><a href="javascript:;" class='formchange' form="add"><i class="icon-plus"></i> <?php lang('addusr') ?></a></li>
+					<li <?php echo ($type=='import')?"class='active'":"" ?>><a href="javascript:;" class='formchange' form="import"><i class="icon-download-alt"></i> <?php lang('importusr') ?></a></li>
 					<li><a href="javascript:;" id='loadform'></a></li>
 				</ul>
 			</div>
@@ -58,6 +59,63 @@
 		</div>
 	</form>
 
+<?php elseif($type=='import'): ?>
+	<form method=POST id='managerform' class="form-horizontal" action='includes/usr/usr_manager_import.php?lang=<?php echo $lang ?>'>
+	
+		<div class="control-group">
+			<label class="control-label"><?php lang('role') ?></label>
+			<div class="controls">
+				<select name="roles" class="input-large">
+					<option value="STUDENT">STUDENT</option>
+				</select>
+			</div>
+		</div>
+	
+		<div class="control-group">
+			<label class="control-label"><?php lang('class') ?></label>
+			<div class="controls">
+				<select name="class_id" class="input-large">
+					<?php
+							$headers = array();
+							$auth_key = $_SESSION[$config_session]['auth_key'];
+							$headers[] = "auth_key: $auth_key";
+							$headers[] = "api_key: TEST_API_KEY";
+
+							$clsaip = callapi($headers,'',$gets,'api/classes');
+							$clsdatas = explode("\n",$clsaip['output']);
+							$clsdata = json_decode(end($clsdatas));
+				
+							foreach($clsdata->list as $lists){
+								$selected = ($lists->id==$usrdata->classes[0]->id)?"selected":"";
+								echo "<option $selected value='$lists->id'>$lists->title</option>";
+							}
+						?>
+				</select>
+			</div>
+		</div>
+		
+		<div class="control-group">
+			<label class="control-label"><?php lang('usrlist') ?></label>
+			<div class="controls">
+				<div data-provides="fileupload" class="fileupload fileupload-new">
+					<span class="btn btn-file">
+						<span class="fileupload-new"><i class="icon-upload-alt"></i> <?php lang('selectfile') ?></span>
+						<input name="uploadedfile" type="text">
+						<input type="file" class="default" id="fileupload" type="file" name="files[]" data-url="assets/jquery-file-upload/server/php/">
+					</span>
+					<span class="help-inline" id="progress">
+						<a href="<?php echo $dirfile ?>/includes/usr/usr_manager_download.php"><?php lang('downloadcsvfile') ?></a>
+					</span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="form-actions">
+			<button type="submit" class="btn btn-info" name="submit"><i class="icon-download-alt"></i> <?php lang('importusr') ?></button>
+			<span id="submit"></span>
+		</div>
+	</form>
+	
 <?php elseif($type=='add'): ?>
 	<form method=POST id='managerform' class="form-horizontal" action='includes/usr/usr_manager_add.php?lang=<?php echo $lang ?>'>
 	
@@ -448,7 +506,7 @@
 			$('input[name=uploadedfile]').val('');
 			$(this).attr("disabled","disabled");
 		},
-		formData: {filetype: 'jpg;png;jpeg'}
+		formData: {filetype: 'jpg;png;jpeg;csv'}
 	});
 	
 	$('select[name=roles]').change(function(){

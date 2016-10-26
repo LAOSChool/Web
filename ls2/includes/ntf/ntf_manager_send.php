@@ -49,7 +49,7 @@ include("../../config.php");
 			$i++;
 		};
 		
-		print_r($posts);
+		///print_r($posts);
 	
 		$sendapi = callapi($headers,$posts,'','api/notifies/create_php');
 		$sendapidatas = explode("\n",$sendapi['output']);
