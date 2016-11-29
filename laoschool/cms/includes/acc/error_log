@@ -1,0 +1,33 @@
+[05-Feb-2015 11:51:20 Asia/Bangkok] PHP Notice:  Undefined index: act in /home/getgam/public_html/vhsteam/project/tin247/admin/config.php on line 27
+[05-Feb-2015 11:51:20 Asia/Bangkok] PHP Strict Standards:  Non-static method DB::connect() should not be called statically in /home/getgam/public_html/vhsteam/project/tin247/admin/config.php on line 143
+[05-Feb-2015 11:51:20 Asia/Bangkok] PHP Strict Standards:  Non-static method DB::parseDSN() should not be called statically in /home/getgam/php/DB.php on line 520
+[05-Feb-2015 11:51:20 Asia/Bangkok] PHP Strict Standards:  Non-static method DB::isError() should not be called statically in /home/getgam/php/DB.php on line 557
+[05-Feb-2015 11:51:20 Asia/Bangkok] PHP Strict Standards:  Non-static method DB::isError() should not be called statically in /home/getgam/public_html/vhsteam/project/tin247/admin/config.php on line 144
+[05-Feb-2015 11:51:20 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isManip() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB/common.php on line 2200
+[05-Feb-2015 11:51:20 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isError() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB/common.php on line 1217
+[05-Feb-2015 11:51:20 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isError() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB/common.php on line 1292
+[05-Feb-2015 11:51:20 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isError() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB.php on line 1387
+[05-Feb-2015 11:51:20 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isManip() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB/common.php on line 2200
+[05-Feb-2015 11:51:20 Asia/Bangkok] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/getgam/public_html/vhsteam/project/tin247/admin/includes/acc/acc_m_account_edit.php on line 28
+[05-Feb-2015 11:51:53 Asia/Bangkok] PHP Notice:  Undefined index: act in /home/getgam/public_html/vhsteam/project/tin247/admin/config.php on line 27
+[05-Feb-2015 11:51:53 Asia/Bangkok] PHP Strict Standards:  Non-static method DB::connect() should not be called statically in /home/getgam/public_html/vhsteam/project/tin247/admin/config.php on line 143
+[05-Feb-2015 11:51:53 Asia/Bangkok] PHP Strict Standards:  Non-static method DB::parseDSN() should not be called statically in /home/getgam/php/DB.php on line 520
+[05-Feb-2015 11:51:53 Asia/Bangkok] PHP Strict Standards:  Non-static method DB::isError() should not be called statically in /home/getgam/php/DB.php on line 557
+[05-Feb-2015 11:51:53 Asia/Bangkok] PHP Strict Standards:  Non-static method DB::isError() should not be called statically in /home/getgam/public_html/vhsteam/project/tin247/admin/config.php on line 144
+[05-Feb-2015 11:51:53 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isManip() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB/common.php on line 2200
+[05-Feb-2015 11:51:53 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isError() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB/common.php on line 1217
+[05-Feb-2015 11:51:53 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isError() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB/common.php on line 1292
+[05-Feb-2015 11:51:53 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isError() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB.php on line 1387
+[05-Feb-2015 11:51:53 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isManip() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB/common.php on line 2200
+[05-Feb-2015 11:51:53 Asia/Bangkok] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/getgam/public_html/vhsteam/project/tin247/admin/includes/acc/acc_m_account_edit.php on line 28
+[05-Feb-2015 11:52:50 Asia/Bangkok] PHP Notice:  Undefined index: act in /home/getgam/public_html/vhsteam/project/tin247/admin/config.php on line 27
+[05-Feb-2015 11:52:50 Asia/Bangkok] PHP Strict Standards:  Non-static method DB::connect() should not be called statically in /home/getgam/public_html/vhsteam/project/tin247/admin/config.php on line 143
+[05-Feb-2015 11:52:50 Asia/Bangkok] PHP Strict Standards:  Non-static method DB::parseDSN() should not be called statically in /home/getgam/php/DB.php on line 520
+[05-Feb-2015 11:52:50 Asia/Bangkok] PHP Strict Standards:  Non-static method DB::isError() should not be called statically in /home/getgam/php/DB.php on line 557
+[05-Feb-2015 11:52:50 Asia/Bangkok] PHP Strict Standards:  Non-static method DB::isError() should not be called statically in /home/getgam/public_html/vhsteam/project/tin247/admin/config.php on line 144
+[05-Feb-2015 11:52:50 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isManip() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB/common.php on line 2200
+[05-Feb-2015 11:52:50 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isError() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB/common.php on line 1217
+[05-Feb-2015 11:52:50 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isError() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB/common.php on line 1292
+[05-Feb-2015 11:52:50 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isError() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB.php on line 1387
+[05-Feb-2015 11:52:50 Asia/Bangkok] PHP Deprecated:  Non-static method DB::isManip() should not be called statically, assuming $this from incompatible context in /home/getgam/php/DB/common.php on line 2200
+[05-Feb-2015 11:52:50 Asia/Bangkok] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/getgam/public_html/vhsteam/project/tin247/admin/includes/acc/acc_m_account_edit.php on line 28

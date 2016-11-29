@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteBase /
+
+AddType application/x-httpd-php .xml 
+
+ErrorDocument 404 index.php?language=vn&menid=error404
+
+RewriteRule (en|la|vn)/admin/(.*) index.php?language=$1&act=$2&type=admin [L] 
+RewriteRule (en|la|vn)/admin index.php?language=$1&type=admin [L] 
+
+RewriteRule vn/ index.php?language=vn [L] 
+RewriteRule la/ index.php?language=la [L] 

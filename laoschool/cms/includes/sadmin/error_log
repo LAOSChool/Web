@@ -1,0 +1,1 @@
+[12-Nov-2014 15:21:27 Asia/Bangkok] PHP Fatal error:  Call to undefined method DB_Error::fetchRow() in /home/getgam/public_html/vhsteam/project/truyen/admin/includes/sadmin/sadmin_user_form.php on line 114

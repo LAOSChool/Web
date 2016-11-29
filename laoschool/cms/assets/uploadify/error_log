@@ -1,0 +1,2 @@
+[11-Nov-2014 11:12:17 Asia/Bangkok] PHP Warning:  move_uploaded_file(../../uploads/1415679137.jpg): failed to open stream: No such file or directory in /home/getgam/public_html/vhsteam/project/truyen/admin/assets/uploadify/uploadify.php on line 11
+[11-Nov-2014 11:12:17 Asia/Bangkok] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpB6TlM6' to '../../uploads/1415679137.jpg' in /home/getgam/public_html/vhsteam/project/truyen/admin/assets/uploadify/uploadify.php on line 11
